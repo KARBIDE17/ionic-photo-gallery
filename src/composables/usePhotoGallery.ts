@@ -45,7 +45,8 @@ export const usePhotoGallery = () => {
         photo.webviewPath = `data:image/jpeg;base64,${file.data}`;
       }
     }
-  
+
+    
     photos.value = photosInPreferences;
   };
 
